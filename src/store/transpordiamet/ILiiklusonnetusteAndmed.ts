@@ -1,0 +1,32 @@
+// valitud hulk
+
+export default interface ILiiklusonnetusteAndmed {
+    toimumisaeg: string,
+    isikuid: number,
+    hukkunuid: number,
+    sõidukeid: number,
+    vigastatuid: number,
+    aadress: string,
+    omavalitsus: string,
+    asutsuts: string,
+    liiklusonnetuse_liik_1: string,
+    liiklusonnetuse_liik_2: string,
+    liiklusonnetuse_liik_3: string,
+    tee_tyyp_1: string,
+    tee_tyyp_2: string,
+    tee_element_1: string,
+    tee_element_2: string,
+    tee_objekt: string,
+    kurvilisus: string,
+    tee_tasasus: string,
+    tee_seisund: string,
+    teekate: string,
+    teekatte_seisund: string,
+    soiduradade_arv: string,
+    lubatud_soidukiirus: string,
+    ilmastik: string,
+    valgustus_1: string,
+    valgustus_2: string,
+    x: string,
+    y: string
+}
